@@ -52,12 +52,11 @@ h1{
     border: double;
     border-color: white;
     margin-bottom: 10px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #wins {
     width: 200px;
-    height: 50px;
     font-size: 20px;
     color: white;
     background-color: black;
@@ -66,10 +65,11 @@ h1{
     border: double;
     border-color: white;
     margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #losses {
     width: 200px;
-    height: 50px;
     font-size: 20px;
     color: white;
     background-color: black;
@@ -78,6 +78,8 @@ h1{
     border: double;
     border-color: white;
     margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .firstCrystal {
@@ -110,7 +112,6 @@ h1{
 }
 #scoreText {
     width: 500px;
-    height: 30px;
     color: white;
     background-color: black;
     margin: auto;
@@ -119,6 +120,8 @@ h1{
     border-color: white;
     margin-bottom: 10px;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #currentScore {
     width: 500px;

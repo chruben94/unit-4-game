@@ -5,6 +5,10 @@ body {
 
 }
 
+.container {
+    text-align: center;
+}
+
 h1{
     color: white;
     background-color: purple;
@@ -69,6 +73,7 @@ h1{
 .firstCrystal {
     width: 150px;
     height: 150px;
+    
 }
 .secondCrystal {
     width: 150px;

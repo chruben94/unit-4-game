@@ -21,6 +21,16 @@ function loser() {
     $("#losses").text("Losses: " + losses);
     $("#currentScore").html(0);
 }
+
+function restart() {
+    score = 0
+    randomNumber = Math.floor(Math.random() * 101) + 19;
+    $("#randomNumber").html(randomNumber);
+    crystal1Number = Math.floor(Math.random() * 12) + 1;
+    crystal2Number = Math.floor(Math.random() * 12) + 1;
+    crystal3Number = Math.floor(Math.random() * 12) + 1;
+    crystal4Number = Math.floor(Math.random() * 12) + 1;
+}
 //need to create a restart function 
 var crystal1 = $(".firstCrystal");
 var crystal1Number = Math.floor(Math.random() * 12) + 1;

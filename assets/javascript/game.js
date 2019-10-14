@@ -8,7 +8,20 @@ $(document).ready(function () {
 //give the crystals random number values between 1 - 12
 // create "score" variable
 var score = 0
+var wins = 0
+var losses = 0
 
+function winner() {
+    wins++;
+    $("#wins").text("Wins: " + wins);
+    $("#currentScore").html(0);
+}
+function loser() {
+    losses++;
+    $("#losses").text("Losses: " + losses);
+    $("#currentScore").html(0);
+}
+//need to create a restart function 
 var crystal1 = $(".firstCrystal");
 var crystal1Number = Math.floor(Math.random() * 12) + 1;
 console.log(crystal1Number);

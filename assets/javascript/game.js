@@ -30,14 +30,53 @@ else if (score >= randomNumber) {
 var crystal2 = $(".secondCrystal");
 var crystal2Number = Math.floor(Math.random() * 12) + 1;
 console.log(crystal2Number);
+$(crystal2).on("click", function () {
+    crystal2Number = parseInt(crystal2Number);
+    score += crystal2Number; 
+    $("#currentScore").html(score);
+    if (score === randomNumber) {
+        winner()
+        restart()
+    }
+    else if (score >= randomNumber) {
+        loser()
+        restart()
+    }
+    })
 
 var crystal3 = $(".thirdCrystal");
 var crystal3Number = Math.floor(Math.random() * 12) + 1;
 console.log(crystal3Number);
+$(crystal3).on("click", function () {
+    crystal3Number = parseInt(crystal3Number);
+    score += crystal3Number; 
+    $("#currentScore").html(score);
+    if (score === randomNumber) {
+        winner()
+        restart()
+    }
+    else if (score >= randomNumber) {
+        loser()
+        restart()
+    }
+    })
 
 var crystal4 = $(".fourthCrystal");
 var crystal4Number = Math.floor(Math.random() * 12) + 1;
 console.log(crystal4Number);
+$(crystal4).on("click", function () {
+    crystal4Number = parseInt(crystal4Number);
+    score += crystal4Number; 
+    $("#currentScore").html(score);
+    if (score === randomNumber) {
+        winner()
+        restart()
+    }
+    else if (score >= randomNumber) {
+        loser()
+        restart()
+    }
+    })
 });
  
 
